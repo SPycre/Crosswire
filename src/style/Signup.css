@@ -1,0 +1,42 @@
+#signup-frame {
+    --edge-size: 8vw;
+  
+    z-index: 10;
+    position: fixed;
+    height: 100%;
+    width: 33%;
+    top: 0;
+    right: -33%;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 0;
+  
+    font-size: 2.5vw;
+    font-family: 'Jura';
+    text-align: center;
+    line-height: 2.5vw;
+    text-decoration: none;
+  
+    clip-path: polygon( 
+      var(--edge-size) 0%,
+      100% 0,
+      100% 100%,
+      0 100%,
+      0% var(--edge-size)
+    );
+    transition-duration: .25s;
+  }
+
+#signup-footer {
+    height: 20%;
+}
+
+#signup-text .title {
+    font-size: 5vw;
+    color: black;
+    text-align: left;
+}
+
+#signup-text {
+    height: 50%;
+}

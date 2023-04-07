@@ -1,6 +1,8 @@
 import '../style/Categories.css'
 import { useState, useEffect } from 'react';
 import Category from '../components/Category.jsx'
+import Signup from '../components/Signup.jsx';
+import Rectangle from '../components/Rectangle.jsx';
 
 function Categories() {
 
@@ -19,14 +21,13 @@ function Categories() {
                 }
             });
         });
-
-
       });
 
     
 
     return (
     <>
+        <Signup/>
         <section id='intro'>
             <p>
                 <span className='medium'>
@@ -52,8 +53,28 @@ function Categories() {
                     <button className='button'>Sign up</button>
                 </p>
             </div>
-            <div>
-                
+            <div id="row">
+                <div className="column">
+                    <Rectangle/>
+                    <Rectangle/>
+                </div>    
+            
+                <div className="column">
+                    <Rectangle/>
+                    <Rectangle/>
+                    <Rectangle/>
+                </div>
+
+                    <div className="column2">
+                        <Rectangle/>
+                        <Rectangle/>
+                        <Rectangle/>
+                    </div>
+
+                    <div className="column2">
+                        <Rectangle/>
+                        <Rectangle/>
+                    </div>
             </div>
         </section>
         <Category title="ONBOARDING" longtitle="AUTOMATED ONBOARDING" description="We give new employees permissions so they can be productive from day one."/>

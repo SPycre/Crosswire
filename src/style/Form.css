@@ -1,0 +1,19 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Jura';
+}
+  
+.form-signup {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-text {
+    text-align: left;
+}

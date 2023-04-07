@@ -1,5 +1,10 @@
 
 
+header img{
+    width: 5vw;
+    height: 5vw;
+  }
+
 header {
     position: fixed;
     padding: 2vw;

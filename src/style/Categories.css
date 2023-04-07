@@ -1,0 +1,75 @@
+
+
+main {
+    padding: 20px 0;
+    font-family: 'Jura';
+}
+
+section {
+    margin: 5vw 7%;
+    margin-bottom: 15vw;
+    z-index: 1;
+}
+
+section button {
+    z-index: 0;
+}
+
+.hidden {
+    opacity: 0;
+    transition-duration: .4s;
+}
+
+.shown {
+    opacity: 1;
+    transition-duration: .4s;
+}
+
+#intro .title {
+    width: 60%;
+    display: block;
+}
+
+#signup {
+    display: flex;
+    flex-direction: row;
+}
+
+#signup button {
+    width: 15vw;
+    height: 5vw;
+}
+
+#signup span {
+    margin-top: 0px;
+    display: block;
+}
+
+#signup #signtext {
+    width: 55%;
+    display: block;
+}
+
+.large {
+    font-size: 4vw;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+
+.medium {
+    font-size: 2.5vw;
+    color: #BBBBBB;
+    font-weight: lighter;
+}
+
+.small {
+    font-size: 2vw;
+    color: #BBBBBB;
+    font-weight: lighter;
+}
+
+.title {
+    font-size: 7.5vw;
+    font-weight: lighter;
+    color: #FFFFFF;
+}

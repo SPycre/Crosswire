@@ -1,0 +1,14 @@
+
+
+.category .description {
+    font-size: 3.2vw;
+    width: 60%;
+    display: block;
+}
+
+.category-title{
+    font-size: 3.5vw;
+    font-weight: lighter;
+    text-align: end;
+    display: block;
+}

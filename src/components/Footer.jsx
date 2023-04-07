@@ -11,8 +11,22 @@ function Footer() {
                 <div className="wave" id="wave3"></div>
                 <div className="wave" id="wave4"></div>
             </div>
-            <div>
-                <Link to="/terms">Terms</Link>
+            <div id="footer">
+                <div>
+                <Link id="lterms" to="/terms">Terms & conditions</Link>
+                </div>
+
+                <div>
+                <p> YOUR IDENTITY OS </p>
+                <p> Copyright Crosswire </p>
+                </div>
+
+                <div>
+                <p> [Email]-[Linkedln] </p>
+                <p> founders@crosswire.io </p>
+                <p> @crosswire </p>
+                </div>
+
             </div>
         </footer>
     )

@@ -85,7 +85,7 @@ section button {
   .column2{
     display: flex;
     flex-direction: column;
-    margin-bottom: 25px;
+    margin-bottom: 85px;
   }
 
   #row{

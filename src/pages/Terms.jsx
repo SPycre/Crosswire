@@ -1,9 +1,10 @@
-
+import '../style/Terms.css'
 
 function Terms() {
     return (
         <>
-            <div className="terms-section__content g-full g-start-12@md g-end-26@md">
+            <div className="termsId">
+				<h1> TERMS & POLICY </h1>
                 <ul className="list-unstyled">
                     
 						<li className="article | js-terms:content">

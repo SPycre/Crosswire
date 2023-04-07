@@ -9,9 +9,13 @@ function Header() {
         navigate('/more')
     }
 
+    function handleClick2() {
+        navigate('/')
+    }
+
     return (
         <header>
-            <img src={Logo}/>
+            <img onClick={handleClick2} src={Logo}/>
             <button onClick={handleClick}>More</button>
         </header>
     )

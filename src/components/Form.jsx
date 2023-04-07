@@ -3,11 +3,11 @@ import "../style/Form.css"
 function Form() {
 
     const inputs = [
-        (<input type="text" name="first"></input>),
-        (<input type="text" name="last"></input>),
-        (<input type="text" name="company"></input>),
-        (<input type="number" name="employees"></input>),
-        (<input type="email" name="mail"></input>),
+        (<div className="input"><input className="input-inner" type="text" name="first"></input></div>),
+        (<div className="input"><input className="input-inner" type="text" name="last"></input></div>),
+        (<div className="input"><input className="input-inner" type="text" name="company"></input></div>),
+        (<div className="input"><input className="input-inner" type="number" name="employees"></input></div>),
+        (<div className="input"><input className="input-inner" type="mail" name="email"></input></div>),
     ]
 
     function handleSubmit(event) {
